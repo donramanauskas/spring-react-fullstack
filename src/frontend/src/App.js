@@ -14,6 +14,7 @@ import {
     Spin,
     Radio,
     Popconfirm,
+    Divider
 } from 'antd';
 import {
     DesktopOutlined,
@@ -224,7 +225,17 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>By Ramanauskas</Footer>
+            <Footer style={{ textAlign: 'center' }}>
+                By Ramanauskas
+                <Divider>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://github.com/donramanauskas/spring-react-fullstack">
+                        Click here to access the project code
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
